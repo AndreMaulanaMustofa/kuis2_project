@@ -41,9 +41,7 @@ CREATE TABLE `tb_materi` (
 --
 
 INSERT INTO `tb_materi` (`id`, `id_matkul`, `nama_materi`, `pertemuan`, `tanggal_materi`) VALUES
-(1, 1, 'Perkenalan web dan php bagian 1', 1, '2022-11-06 11:40:00'),
-(3, 1, 'Perkenalan JS', 2, '2022-11-10 15:16:18'),
-(8, 7, 'Sistem Informasi Pengubah Rasa Malas Jadi Rasa Cokelat berbasis Web', 5, '2022-11-17 20:14:25');
+(1, 1, 'Perkenalan web dan php bagian 1', 1, '2022-11-06 11:40:00');
 
 -- --------------------------------------------------------
 
@@ -63,9 +61,7 @@ CREATE TABLE `tb_matkul` (
 --
 
 INSERT INTO `tb_matkul` (`id`, `kode_matkul`, `nama_matkul`, `deskripsi_matkul`) VALUES
-(1, 'DT020202', 'Perancangan Web 2', 'Ini deskripsi mata kuliah'),
-(7, '01', 'Jarkom', 'Vlan\r\n'),
-(9, 'DT1234', 'Struktur Data', 'Belajar Phyton');
+(1, 'DT020202', 'Perancangan Web 2', 'Ini deskripsi mata kuliah');
 
 --
 -- Indexes for dumped tables
